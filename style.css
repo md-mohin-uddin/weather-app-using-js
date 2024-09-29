@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(to right, #1c92d2, #f2fcfe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.weather-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 450px;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+}

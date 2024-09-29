@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather App with Bootstrap" />
+    <title>Weather App</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center">
+      <div class="weather-container text-center">
+        <h2 class="mb-4">Weather App</h2>
+
+        <!-- Form for Country and City Input -->
+        <form id="form" class="mb-2">
+          <div class="form-group">
+            <input
+              type="text"
+              id="country"
+              class="form-control mb-3"
+              placeholder="Enter country name"
+            />
+            <input
+              type="text"
+              id="city"
+              class="form-control mb-3"
+              placeholder="Enter city name"
+            />
+            <button type="submit" class="btn btn-primary btn-block">
+              Get Weather
+            </button>
+          </div>
+        </form>
+        <hr />
+        <hr />
+
+        <!-- Message Wrapper -->
+        <div id="messageWrapper" class="">
+          <!-- Error or Success Messages will be displayed here -->
+        </div>
+
+        <!-- Weather Information Display -->
+        <div class="border rounded p-2">
+          <div class="weather-info mt-4">
+            <h4 id="w-city"></h4>
+            <img id="w-icon" class="icon" alt="Weather Icon" />
+            <p id="w-feel" class=""></p>
+          </div>
+          <hr />
+          <div class="text-left mt-2">
+            <p id="w-temp"></p>
+            <p id="w-pressure"></p>
+            <p id="w-humidity"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
