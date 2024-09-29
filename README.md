@@ -31,8 +31,8 @@ This is a simple weather application that allows users to search for current wea
    ```bash
    git clone https://github.com/md-mohin-uddin/weather-app-using-js.git
    cd weather-app
-2. **Open the project: Open index.html file in your browser to see the application in action.
-3. **Set up the API key:
+2. Open the project: Open index.html file in your browser to see the application in action. 
+3. Set up the API key:
 
 - Create a free account on OpenWeatherMap.
 - Generate an API key from your account.
@@ -41,5 +41,5 @@ This is a simple weather application that allows users to search for current wea
   ```bash
   const apiKey = "YOUR_API_KEY";
   ```
-4. **Start the app: You can directly open the `index.html` file in your browser or use a live server if you have one set up.
+4. Start the app: You can directly open the `index.html` file in your browser or use a live server if you have one set up. 
 
